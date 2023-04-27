@@ -1,0 +1,133 @@
+body{
+    background: rgb(226, 233, 228);
+}
+/* .hello{
+    background: url("../images/image1.jpg") 50% 0 no-repeat fixed;
+    color: white;
+    height: 933px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+} */
+
+/* .hello h1{
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+} */
+.first{
+    background: url("../images/image5.jpg")  no-repeat ;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.second{
+    background: url("../images/image3.jpg")  no-repeat ;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    background: url("../images/image4.jpg")  no-repeat ;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#first, #second, #third{
+    margin-top: 400px; 
+    font-weight: bold;
+    font-size: 50px;
+    color: orangered;
+    
+}
+.about{
+    color: rgb(14, 15, 14);
+}
+.about hr{
+    position: relative;
+    border-top: 5px solid orangered;
+    width: 50px;
+    background: orangered;
+    margin-bottom: 30px;
+}
+
+.tab{
+    border: 1px solid red;
+    border-radius: 25px;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.inquiry{
+    background: orangered;
+}
+
+.serv{
+    border: 2px solid brown;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.foot{
+    background: orangered;
+}
+.about img{
+    height: 400px; width: 600px; border-radius: 40px
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: aqua;
+    }
+    .first, .second, .third{
+        background-size: cover;
+        height: 400px;
+    }
+    #first, #second, #third{
+        margin-top: 100px; 
+    }
+    .about{
+        margin-left: 10px;
+    }
+    .about img{
+        /* height: 200px;
+        width: 400px;
+        margin-left: 40px; */
+        display: none;
+    }
+    
+}
+
+
+
+  /* @media only screen and (orientation: landscape) {
+    body {
+      /* background-color: lightblue; *
+    }
+  } */
+
+/* .abtImg{
+    background-image: url('../images/sections/image3.jpg');
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+}
+#img{
+     background-image: url('../images/sections/image7.jpg'); 
+    height: 100px;
+    width: 200px;
+
+    background-size: contain; 
+} */
+
+
+

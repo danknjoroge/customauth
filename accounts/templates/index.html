@@ -1,0 +1,226 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+
+<!-- <div class="hello mt-5" >
+    <h1 class="p-5">WELCOME TO MY BLOG SITE</h1>
+    
+</div> -->
+<div class="container home">
+  <h4>Welcome Home</h4>
+</div>
+
+<!-- Home section with image swipe -->
+<div
+  id="carouselFade"
+  class="carousel slide carousel-fade pt-5"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item first active">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <div class="text-white text-center">
+        <h5 id="first">WELCOME TO SURGE PRO</h5>
+        <p class="text-warning fw-bold">
+          Some representative placeholder content for the first slide.
+        </p>
+        <button class="btn text-white bg-success rounded-pill btnMore">
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+
+    <div class="carousel-item second">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <div class="text-center text-white">
+        <h5 id="second">WE ARE EXCITED YOU ARE HERE</h5>
+        <p class="text-warning fw-bold">
+          Some representative placeholder content for the first slide.
+        </p>
+        <button class="btn text-white bg-success rounded-pill btnMore">
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+
+    <div class="carousel-item third">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <div class="text-center text-white">
+        <h5 id="third">FEEL FREE TO ASK US ANY QUESTION</h5>
+        <p class="text-warning fw-bold">
+          Some representative placeholder content for the first slide.
+        </p>
+        <button class="btn text-white rounded-pill bg-success btnMore">
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselFade"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselFade"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- End of home section -->
+
+<!-- <div class="container my-5">
+
+    <div class="row text-center">
+        <h1 class="text-center ">ABOUT US SECTION</h1>
+        <div class="col-md-5 ">
+            <h4>About Us</h4>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 ">
+            <div class="abtImg"></div>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="container my-5">
+
+  <div class=" row row-cols-auto">
+    <div class="col-md-5">
+        <div class="abtImg2"></div>
+
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-5">
+        <h4>About Us</h4>
+
+    </div>
+</div>
+</div> -->
+
+
+<!-- About section -->
+
+<div class="container about my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="">ABOUT US</div>
+      <hr />
+      <p>
+        As a <b>Minority Business Enterprise(MBE).</b> SurgePro is commited to
+        leveraging over
+        <b>50 years of domestic and global manpower solutions</b> expertise to
+        create strategic solutions for our clients. Our founding members are
+        proven leders in account management, Sales, Creative Hiring Strategy,
+        Cost Analysis/Pricing structure. HSE and overall People management. The
+        cumulative experience of our leadership team has been the driving force
+        behind <b>SurgePro's innovative offerings.</b> We strive to provide our
+        clients with exceptional services that not only meets their needs but
+        also promotes diversity and inclusion in the workplace.
+      </p>
+      <button class="btn bg-success mb-2" style="border-radius: 40px;">LEARN MORE</button>
+    </div>
+
+    <div class="col-md-6">
+      <img
+        id="img"
+        src="{%static '../../../../static/images/sections/image10.jpg' %}"
+        alt="home"
+        style=""
+      />
+    </div>
+  </div>
+
+  <div class="row my-5">
+    <div class="col-md-6">
+      <img
+        src="{%static '../../../../static/images/sections/image8.jpg' %}"
+        alt="home"
+      />
+    </div>
+
+    <div class="col-md-6 mt-5">
+      <div class="">
+        <h1>HSE TEAM</h1>
+        <hr>
+        <p>SurgePro is a MBE committed to providing innovative solutions for our clients while creating an environment that values diversity and inclusivity. Our key focus is taking the burden off our clients by providing project management, key personnel and manpower solutions.</p>
+        <button class="btn btn-success">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of about section -->
+
+
+<!-- Another section -->
+<div class="container services my-5">
+  <h1 class="text-center fw-bold my-5">HSE AREAS OF EXPERTISE</h1>
+  <div class="row">
+    <div class="col-md-4 ">
+      <div class="tab">
+        <h3 class="m-4">Risk Analysis & Management</h3>
+
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="tab">
+        <h3 class="m-4">Due Diligence</h3>
+
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="tab">
+        <h3 class="m-4">Environmental Permits/Plans</h3>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-5">
+    <div class="col-md-4">
+      <div class="tab">
+        <h3 class="m-4">Healthy & Safety</h3>
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tab">      
+        <h3 class="m-4">Regulatory and Complince Assistance</h3>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tab text-center">
+        <button class="btn btn-success mt-5">View More</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of the section -->
+
+
+<!-- Another Section -->
+<div class="inquiry p-5 my-5">
+  <div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6 ">
+      <h3 class="text-white fw-bold">Need a Service Completed or a Position Filled</h3>
+    </div>
+    <div class="col-md-6">
+      <button class="btn bg-white">Contact Us</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+{% include 'includes/footer.html' %}
+
+{%endblock%}
